@@ -1,0 +1,91 @@
+.courses-page {
+  padding: 32px;
+}
+
+.courses-header {
+  margin-bottom: 30px;
+}
+
+.courses-header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.courses-header p {
+  margin: 0;
+  color: #6b7280;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.course-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.course-content h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.course-content p {
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.lesson-count {
+  font-size: 14px;
+}
+
+.course-progress {
+  width: 100%;
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.course-progress-bar {
+  height: 100%;
+  background: #2563eb;
+}
+
+.course-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.course-footer span {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.course-footer button {
+  border: none;
+  border-radius: 7px;
+  padding: 9px 14px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .course-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+}

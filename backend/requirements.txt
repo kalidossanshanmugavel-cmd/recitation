@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-multipart
+PyJWT
+pwdlib[argon2]
+python-dotenv
